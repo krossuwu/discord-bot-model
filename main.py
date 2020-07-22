@@ -16,13 +16,13 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-  print("o")
+  print("")
 
 
 @bot.command()
 async def help(ctx):
 	em = discord.embed(title="command list :")
-	
+
 
 
 
